@@ -1,0 +1,12 @@
+body {font-family: Roboto,
+    sans-serif;}
+.hdr {background-color: #FFFFFF;}
+.main-page {background-color: #2E2F42;}
+.page-title {
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: bold;
+    letter-spacing: 2%;}
+ul {list-style-type: none;}
+button {width: 169px; height: 56px;
+        background-color: #4D5AE5; color: #FFFFFF;border-radius: 4px;}
