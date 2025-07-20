@@ -1,12 +1,109 @@
-body {font-family: Roboto,
-    sans-serif;}
-.hdr {background-color: #FFFFFF;}
-.main-page {background-color: #2E2F42;}
+body {
+    font-family: roboto, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+a {text-decoration: none;}
+.header {
+    background-color: #FFFFFF;
+}
+
+.nav-logo {
+    font-family: Raleway;
+       font-weight: 700;
+       color: #4D5AE5;
+       text-transform: uppercase;
+       letter-spacing: 1.5;
+       
+}
+
+.logo-span {
+    font-family: Raleway;
+        font-weight: 700;
+        color: #2E2F42;
+        text-transform: uppercase;
+
+}
+.header-nav-list {
+font-size: 16px;
+line-height: 24px;
+font-weight: 500;
+color: #2E2F42;
+}
+.header-list-item a:hover {color: #404BBF;}
+.header-list-item a:active{color: #404BBF;}
+
+.address-list-item a{
+    color:#434455;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    font-style: normal;
+}
+.address-list-item a:hover {
+    color: #404BBF;
+}
+/* main page */ 
+.main-page {
+    background-color: #2E2F42;
+}
 .page-title {
     color: #FFFFFF;
     font-size: 56px;
     font-weight: bold;
-    letter-spacing: 2%;}
-ul {list-style-type: none;}
-button {width: 169px; height: 56px;
-        background-color: #4D5AE5; color: #FFFFFF;border-radius: 4px;}
+    letter-spacing: 2%;
+}
+
+button {
+        width: 169px; height: 56px;
+        background-color: #4D5AE5; color: #FFFFFF;
+        border-radius: 4px;
+    
+    }
+        button:hover {background-color: #404BBF;}
+
+.values-list p{
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 2%;
+        color: #2E2F42;
+}
+.values {color:white;}
+.second-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 2%;
+        text-align: center;
+        color: #2E2F42;
+}
+.third-title {
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 2%;
+        color: #2E2F42;
+}
+.team {
+    background-color: #F4F4FD;
+
+}
+.footer {
+    background-color: #2E2F42;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 2%;
+        color: #F4F4FD;
+}
+.logo-span-footer { 
+        color: #F4F4FD;
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 3%;
+        text-transform: uppercase;
+}
