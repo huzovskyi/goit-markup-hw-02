@@ -75,7 +75,7 @@ letter-spacing: 0.02em;
 
 .btn {
         font-family: "Roboto", sans-serif;
-        width: 169px; height: 56px;
+       
         background-color: #4D5AE5; color: #FFFFFF;
 
         font-weight: 500;
@@ -90,12 +90,7 @@ letter-spacing: 0.02em;
 .btn:focus {background-color: #404BBF;}
 
 
-.values-list p{
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 2%;
-        color: #2E2F42;
-}
+
 .values {color:white;}
 .second-title {
         font-weight: 700;
